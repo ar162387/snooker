@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snooker Game</title>
+    <!-- Load p5.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
+    <!-- Load matter.js physics engine -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #2c3e50;
+            font-family: Arial, sans-serif;
+        }
+        #game-container {
+            text-align: center;
+        }
+        #instructions {
+            color: white;
+            margin-top: 20px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <div id="canvas-holder"></div>
+        <div id="instructions">
+            <h3>Snooker Game Instructions</h3>
+            <p>Press '1' - Starting position (all balls in place)</p>
+            <p>Press '2' - Random red balls only</p>
+            <p>Press '3' - Random all balls</p>
+            <p>Click in the "D" zone to place cue ball</p>
+            <p>Click and drag to aim, release to shoot</p>
+            <p>Use UP/DOWN arrows to adjust power</p>
+        </div>
+    </div>
+    
+    <!-- Load our game scripts with cache busting -->
+    <script src="Ball.js?v=20240102"></script>
+    <script src="Cue.js?v=20240102"></script>
+    <script src="SnookerTable.js?v=20240102"></script>
+    <script src="sketch.js?v=20240102"></script>
+</body>
+</html> 
