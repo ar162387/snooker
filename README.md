@@ -1,3 +1,5 @@
+<img width="1378" alt="image" src="https://github.com/user-attachments/assets/5b516911-f476-4d0b-a6cb-221a6efaf663" />
+
 # Snooker Game
 
 A snooker Game Made using JavaScript, p5.js and Matter.js
