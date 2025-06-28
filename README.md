@@ -1,5 +1,7 @@
 # Snooker Game
 
+A snooker Game Made using JavaScript, p5.js and Matter.js
+
 ## Overview
 This is a feature-rich snooker simulation game built with JavaScript. The game provides a realistic snooker experience with professional-grade physics, accurate ball behavior, and tournament-standard table dimensions. It simulates the classic game of snooker with detailed physics for ball movement, cushion bounces, spin effects, and pocket collisions.
 
@@ -35,12 +37,12 @@ This is a feature-rich snooker simulation game built with JavaScript. The game p
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/snooker-game.git
+   git clone https://github.com/ar162387/snooker.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd snooker-game
+   cd snooker
    ```
 
 3. Open `index.html` in your web browser to play the game.
